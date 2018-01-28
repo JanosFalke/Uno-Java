@@ -13,7 +13,8 @@ Il fallait construire plusieurs classes et aussi des classes abstraites (par exe
 On aurait pu faire des énumerations pour par exemple le choix entre les couleurs pour les jokers ou pour le choix avec combien de joueur on veut jouer.
 
 Il existe les classes suivantes: 
-  * **Carte** + *(pour créer soit une carte normale ou une carte speciale (à effet))*
+  * **Carte**
+  + *(pour créer soit une carte normale ou une carte speciale (à effet))*
   * EnsembleCartes *(pour créer soit une main, pioche ou defausse)*
   * **Joueur**  *(pour créer soit un joueur réel ou un ordinateurs (IA))* 
   * EnsembleJoueurs *(pour créer les joueurs du jeu (entre 2-4))*
