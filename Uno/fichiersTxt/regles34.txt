@@ -1,0 +1,25 @@
+******************************* Les règles du UNO à 3 ou 4***********************************
+********************************************************************************************* 
+
+
+__________________________________ Les bases__________________________________
+-> On peut jouer si on a la même couleur ou la même valeur ou le même effet
+-> Quand on a pioché on n'a pas le droit de rejouer immediatement
+-> Si la carte avec laquelle on commence a un effet donc l'effet ne marche pas
+-> On peut toujours jouer les Super-/Jokers (exception cartes spéciales (voir règles dessous))
+
+_____________________________ Les cartes spéciales
+1.) PASSER UN TOUR: Si le joueur suivant n'a pas aussi cette carte donc il doit passer son tour
+2.) INVERSION: Le sens du jeu change.
+3.) SUPERJOKER: Le joueur suivant doit tirer 4 cartes et il doit passer son tour 
+(on ne peut pas mettre un Superjoker sur un Superjoker)
+4.) JOKER: On choisi la couleur entre les 4 couleurs
+5.) PREND 2: Si le joueur suivant n'a pas de +2 il faut piocher 2 cartes et il doit passer son tour,
+si l'adversaire a une +2 alors on accumule, donc ça donne +4, puis +6,…
+
+__________________________________ Les Scores__________________________________
+-> Le vainqueur de chaque partie gagne par rapport aux cartes restantes des autres
+   -> 20 points par carte spéciale
+   -> 50 points par joker ou superjoker
+   -> Sinon les points correspond à la valeur de la carte 
+=> Il faut avoir 500 points pour gagner une partie complète
