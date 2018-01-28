@@ -14,7 +14,7 @@ On aurait pu faire des énumerations pour par exemple le choix entre les couleur
 
 Il existe les classes suivantes: 
   * **Carte**
-   +*(pour créer soit une carte normale ou une carte speciale (à effet))*
+   + *(pour créer soit une carte normale ou une carte speciale (à effet))*
   * EnsembleCartes *(pour créer soit une main, pioche ou defausse)*
   * **Joueur**  *(pour créer soit un joueur réel ou un ordinateurs (IA))* 
   * EnsembleJoueurs *(pour créer les joueurs du jeu (entre 2-4))*
