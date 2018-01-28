@@ -6,6 +6,7 @@ Nous, le joueur réel on peut jouer contre soit 1, 2 ou 3 ordinateurs/intelligen
 *Dans le projet vous pouvez trouver des commentaires du code qui explique ceci et cela.*
 *(Tous les règles du jeu se trouvent sur le bouton Aide dans le jeu)*
 
+
 - [Le but du projet](#le-but-du-projet)
 - [Les classes](#les-classes)
 - [L'interface graphique](#linterface-graphique)
@@ -15,7 +16,8 @@ Nous, le joueur réel on peut jouer contre soit 1, 2 ou 3 ordinateurs/intelligen
 
 ## Le but du projet 
 Le but était de faire un jeu de société et d'introduire plusieurs notions de base de la programmation Java. 
-J'ai beaucoup travaillé sur l'interface graphique et ses compléments, les ArrayLists, les files prioritaires, les piles, la notion des classes abstraites, un peu de la récursivité (pour laquelle j'ai également fait un projet sur le Lindenmayer_System et sur Conway's game of life), etc.
+
+J'ai beaucoup travaillé sur l'interface graphique et ses compléments, les ArrayLists, les files prioritaires, les piles, la notion des classes abstraites, un peu de la récursivité (pour laquelle j'ai également fait un projet sur le [Lindenmayer_System](https://github.com/JanosFalke/Lindenmayer_System) et sur Conway's game of life), etc.
 
 ## Les classes
 Il fallait construire plusieurs classes et aussi des classes abstraites (par exemple pour la différence entre une carte normale et une carte speciale ou entre un joueur réel et un ordinateur).
