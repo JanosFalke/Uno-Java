@@ -14,19 +14,19 @@ On aurait pu faire des énumerations pour par exemple le choix entre les couleur
 
 Il existe les classes suivantes: 
   * **Carte (abstraites)**              
-  > *(pour créer soit une carte normale ou une carte speciale (à effet))*
+  > pour créer soit une carte normale ou une carte speciale (à effet)
   * EnsembleCartes        
-  > *(pour créer soit une main, pioche ou defausse)*
+  > pour créer soit une main, pioche ou defausse
   * **Joueur (abstraites)**             
-  > *(pour créer soit un joueur réel ou un ordinateurs (IA))* 
+  > pour créer soit un joueur réel ou un ordinateurs (IA) 
   * EnsembleJoueurs       
-  > *(pour créer les joueurs du jeu (entre 2-4))*
+  > pour créer les joueurs du jeu (entre 2-4)
   * Partie                 
-  > *(pour créer une partie à partir des joueurs (EnsembleJoueurs) et cartes(EnsembleCartes))*
+  > pour créer une partie à partir des joueurs (EnsembleJoueurs) et cartes(EnsembleCartes)
   * Fenetre                
-  > *(pour créer l'interface graphique)*
+  > pour créer l'interface graphique
   * Uno                   
-  > *(pour créer une fênetre et donc commencer une partie)*
+  > pour créer une fênetre et donc commencer une partie
 
 
 ## Interface graphique
