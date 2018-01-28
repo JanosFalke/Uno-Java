@@ -27,11 +27,19 @@ Il existe les classes suivantes:
   * Fenetre                
   > pour créer l'interface graphique
   * Uno                   
-  > pour créer une fênetre et donc commencer une partie
+  > pour créer une fenêtre et donc commencer une partie
 
 
 ## Interface graphique
+La fenêtre est basé sur un JPanel. Tous les boutons, images, tableaux (pour le score) sont dans ce JPanel.
 
+Pour l'affichage des popup j'ai utilisé des JOptionPanes, donc pour les popups pour saisir le nom du joueur, le choix avec combien de joueur on va jouer, le choix de la couleur du joker, etc. 
+
+La images, donc les positions des cartes sont calculé avec des algorithmes et variables pour les afficher correctement avec n'importe quelle taille de la fenêtre. Egalement la zone du clic est adapté avec un algorithme. 
+
+Le programme, donc le jeu comprend une interaction par rapport si on a cliqué sur quelque chose, après il fait la chose correspondante. Pour que les ordinateurs puissent jouer et que le JPanel se redessine après chaque carte joué il fallait introduire la notion du Robot qui est inclus dans Java. Ce robot fait egalement interaction de l'appuie sur la fenêtre et car le boolean 'jouerOuPiocher' (qui correspond à ce que le joueur réel avait fait) est false, donc l'IA peut jouer jusqu'à que tous les IAs ont joué. 
+
+Les déroulement de chaque tour se fait par rapport à la priorité du joueur dans la file de priorité de l'ensemble de joueurs de la partie courante. 
 
 ## L'intelligence artificielle
 
