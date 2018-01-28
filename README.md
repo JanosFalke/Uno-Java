@@ -11,7 +11,7 @@ Nous, le joueur réel on peut jouer contre soit 1, 2 ou 3 ordinateurs/intelligen
 
 ## Les classes
 Il fallait construire plusieurs classes et aussi des classes abstraites (par exemple pour la différence entre une carte normale et une carte speciale ou entre un joueur réel et un ordinateur).
-On aurait pu faire des énumerations pour par exemple le choix entre les couleurs pour les jokers ou pour le choix avec combien de joueur on veut jouer.
+On aurait pu faire des énumerations pour par exemple le choix entre les couleurs pour les jokers ou pour le choix avec combien de joueur on veut jouer mais je n'y avais pas pensé.
 
 Il existe les classes suivantes: 
   * **Carte (abstraites)**              
