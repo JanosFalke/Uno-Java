@@ -39,7 +39,10 @@ La images, donc les positions des cartes sont calculé avec des algorithmes et v
 
 Le programme, donc le jeu comprend une interaction par rapport si on a cliqué sur quelque chose, après il fait la chose correspondante. Pour que les ordinateurs puissent jouer et que le JPanel se redessine après chaque carte joué il fallait introduire la notion du Robot qui est inclus dans Java. Ce robot fait egalement interaction de l'appuie sur la fenêtre et car le boolean 'jouerOuPiocher' (qui correspond à ce que le joueur réel avait fait) est false, donc l'IA peut jouer jusqu'à que tous les IAs ont joué. 
 
-Les déroulement de chaque tour se fait par rapport à la priorité du joueur dans la file de priorité de l'ensemble de joueurs de la partie courante. 
+Le déroulement de chaque tour se fait par rapport à la priorité du joueur dans la file de priorité de l'ensemble de joueurs de la partie courante. 
 
 ## L'intelligence artificielle
 
+
+
+![JOptionPaneDuStart](https://imgur.com/Vbl626C) 
