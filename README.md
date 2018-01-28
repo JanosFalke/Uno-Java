@@ -4,10 +4,11 @@ J'ai programmé un Uno en Java/Netbeans (2-4 joueurs) en L2 (S3).
 Nous, le joueur réel on peut jouer contre soit 1, 2 ou 3 ordinateurs/intelligence artificielles(IA).
 
 *Dans le projet vous pouvez trouver des commentaires du code qui explique ceci et cela.*
+*(Tous les règles du jeu se trouvent sur le bouton Aide dans le jeu)*
 
 - [Le but du projet](#le-but-du-projet)
 - [Les classes](#les-classes)
-- [Interface graphique](interface-graphique)
+- [L'interface graphique](#linterface-graphique)
 - [L'intelligence artificielle](#lintelligence-artificielle)
 - [Quelques images du jeu](#quelques-images-du-jeu)
 
@@ -36,7 +37,7 @@ Il existe les classes suivantes:
   > pour créer une fenêtre et donc commencer une partie
 
 
-## Interface graphique
+## L'interface graphique
 La fenêtre est basé sur un JPanel. Tous les boutons, images, tableaux (pour le score) sont dans ce JPanel.
 
 Pour l'affichage des popup j'ai utilisé des JOptionPanes, donc pour les popups pour saisir le nom du joueur, le choix avec combien de joueur on va jouer, le choix de la couleur du joker, etc. 
@@ -46,6 +47,8 @@ La images, donc les positions des cartes sont calculé avec des algorithmes et v
 Le programme, donc le jeu comprend une interaction par rapport si on a cliqué sur quelque chose, après il fait la chose correspondante. Pour que les ordinateurs puissent jouer et que le JPanel se redessine après chaque carte joué il fallait introduire la notion du Robot qui est inclus dans Java. Ce robot fait egalement interaction de l'appuie sur la fenêtre et car le boolean 'jouerOuPiocher' (qui correspond à ce que le joueur réel avait fait) est false, donc l'IA peut jouer jusqu'à que tous les IAs ont joué. 
 
 Le déroulement de chaque tour se fait par rapport à la priorité du joueur dans la file de priorité de l'ensemble de joueurs de la partie courante. 
+
+Il y a aussi une structure de score pour pouvoir savoir qui a gagné, après chaque partie si on décide de continuer alors le score est affiché (le score se calcule à la base de tous ce que les autres joueurs ont encore en main). Après que quelqu'un a obtenu le score totale de 500 points (ou plus) il a gagné la partie complète. 
 
 ## L'intelligence artificielle
 J'ai programmé une intelligence artificielle plutôt facile. Au début chaque IA à comparé ses cartes avec la dernière carte joué et construit un Array avec les possibilités des cartes jouables. Après l'IA a joué la première possibilité de ces possibilités.
