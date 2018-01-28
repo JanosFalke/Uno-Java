@@ -6,7 +6,7 @@ Nous, le joueur réel on peut jouer contre soit 1, 2 ou 3 ordinateurs/intelligen
 *Dans le projet vous pouvez trouver des commentaires du code qui explique ceci et cela.*
 
 - [Le but du projet](https://pages.github.com/)
-- [Les classes](https://pages.github.com/)
+- [Les classes](#les-classes)
 - [Interface graphique](https://pages.github.com/)
 - [L'intelligence artificielle](https://pages.github.com/)
 - [Quelques images du jeu](https://pages.github.com/)
