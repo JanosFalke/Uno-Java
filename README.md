@@ -48,8 +48,13 @@ Le programme, donc le jeu comprend une interaction par rapport si on a cliqué s
 Le déroulement de chaque tour se fait par rapport à la priorité du joueur dans la file de priorité de l'ensemble de joueurs de la partie courante. 
 
 ## L'intelligence artificielle
+J'ai programmé une intelligence artificielle plutôt facile. Au début chaque IA à comparé ses cartes avec la dernière carte joué et construit un Array avec les possibilités des cartes jouables. Après l'IA a joué la première possibilité de ces possibilités.
 
+Donc j'ai changé un peu et maintenant l'IA regarde la pioche et si par exemple cela est un +2 ou un 'Passe ton tour' alors il va chercher si lui aussi il y a une carte comme cela pour pas passer de tour et pour ne pas piocher +2.
 
+Tous cela n'était déjà pas mal mais le problème c'était que si un joueur n'a plus beaucoup de carte alors le joueur d'avant il a simplement joué la première possibilité. Puis j'ai introduit une notion de la 'meilleure carte à jouer' où l'IA analyse aussi combien de carte le joueur suivant a pour sav oir si c'est mieux de jouer un +2 ou +4 ou ... (une carte speciale). 
+
+Dernière chose à faire pour l'IA c'était que si lui-même il n'a plus beaucoup de cartes donc il va essayer de jouer un joker pour pouvoir jouer le reste de ces cartes (l'IA essaie aussi toujours de jouer une des cartes dont la couleur elle a le plus). 
 
 
 ## Quelques images du jeu
