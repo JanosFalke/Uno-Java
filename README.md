@@ -1,5 +1,5 @@
 # Uno (Programmé en Java)
-J'ai programmé un Uno en Java/Netbeans (2-4 joueurs) en L2 (S3).
+J'ai programmé un Uno en Java/Netbeans (2-4 joueurs) en L2 (S3) avec 2 copains.
 
 Nous, le joueur réel on peut jouer contre soit 1, 2 ou 3 ordinateurs/intelligence artificielles(IA).
 
